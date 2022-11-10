@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+ body {
+    background-color:rgba(97, 21, 21, 0.904);
+    /* background-color: rgba(142, 151, 230, 0.829); */
+} 
+
+#nxt {
+    background: goldenrod;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-left: 50px;
+}
+
+
+#prv {
+    background: goldenrod;
+    cursor: pointer;
+    border-radius: 10px;
+    margin-right: 20px;
+}
+
+#prv:hover{
+    background: gray;
+}
+
+#nxt:hover{
+    background: gray;
+}
+
+
+
+/* centers the image */
+
+#show {
+    display: block;
+    margin-left: auto; 
+    margin-right: auto;
+    width: 100%;
+    border-radius: 12px;
+    outline: none;
+    border: none;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+}
+
+
+button {
+    width: 100px;
+    height: 50px;
+    color: black;
+    font-size: 40px;
+
+}
+
+.push {
+    margin-left: 40%;
+    margin-top: 20px;
+    position: absolute;
+}
+
